@@ -3,14 +3,19 @@ import Controller.UnlockerFingerPrint;
 import Controller.UnlockerPin;
 import Model.UnlockerIntarface;
 
+
 import java.util.ArrayList;
 import java.util.List;
+
 
 //В пакете Model содержится старый класс
 //В пакете Controller содержится новая реализация интерфейса SOLID
 public class Main {
 	public static void main(String[] args) {
+
 		//Задание 1
+
+
 		UnlockerIntarface unlockerIntarfacePIN = new UnlockerPin(123); //Вызов по PIN
 		UnlockerIntarface unlockerIntarfaceID = new UnlockerFaceID("ЛИЦО"); //Вызов FaceID
 		UnlockerIntarface unlockerIntarfaceFinger = new UnlockerFingerPrint("Отпечаток"); //Вызов отпечаток
@@ -18,6 +23,7 @@ public class Main {
 		unlockerIntarfaceFinger.Unlock(unlockerIntarfaceFinger);
 		unlockerIntarfaceID.Unlock(unlockerIntarfaceID);
 		unlockerIntarfacePIN.Unlock(unlockerIntarfacePIN);
+
 		// Конец Задания 1
 
 		// Задание 2
