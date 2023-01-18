@@ -3,14 +3,21 @@ import Controller.UnlockerFingerPrint;
 import Controller.UnlockerPin;
 import Model.UnlockerIntarface;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
 
+=======
+>>>>>>> 195462236cb22fe89b5bb72d4492bb9165d3359a
 //В пакете Model содержится старый класс
 //В пакете Controller содержится новая реализация интерфейса SOLID
 public class Main {
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		//Задание 1
+=======
+
+>>>>>>> 195462236cb22fe89b5bb72d4492bb9165d3359a
 		UnlockerIntarface unlockerIntarfacePIN = new UnlockerPin(123); //Вызов по PIN
 		UnlockerIntarface unlockerIntarfaceID = new UnlockerFaceID("ЛИЦО"); //Вызов FaceID
 		UnlockerIntarface unlockerIntarfaceFinger = new UnlockerFingerPrint("Отпечаток"); //Вызов отпечаток
@@ -18,6 +25,7 @@ public class Main {
 		unlockerIntarfaceFinger.Unlock(unlockerIntarfaceFinger);
 		unlockerIntarfaceID.Unlock(unlockerIntarfaceID);
 		unlockerIntarfacePIN.Unlock(unlockerIntarfacePIN);
+<<<<<<< HEAD
 		// Конец Задания 1
 
 		// Задание 2
@@ -41,5 +49,7 @@ public class Main {
 		immutableListCollection.getIndex(list); // получили элемент 0 позиции 10
 
 		//Создаем абстрактный класс, в котором общие 2 метода! extends AbstractMutImmeteList
+=======
+>>>>>>> 195462236cb22fe89b5bb72d4492bb9165d3359a
 	}
 }
