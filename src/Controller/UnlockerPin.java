@@ -13,7 +13,6 @@ public class UnlockerPin implements UnlockerIntarface {
 	@Override
 	public <T> void Unlock(T userInput) {
 		System.out.println("Открыт по PIN: " + userInput);
-
 	}
 
 	@Override

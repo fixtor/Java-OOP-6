@@ -9,5 +9,4 @@ public class ViewMode {
 	public ViewMode(UnlockerIntarface unlockerIntarface) {
 		this.unlockerIntarface = unlockerIntarface;
 	}
-
 }
